@@ -1,0 +1,43 @@
+To have this test method working, you need to download several JAR files.
+
+To Download Selenium
+
+go to https://www.seleniumhq.org/download/
+
+Download Selenium .
+
+
+To Download Apache POI,
+
+go to http://poi.apache.org/download.html
+
+Download zip version of poi-bin file
+
+After downloading it gather all the jar files in poi, poi/ooxml-lib and poi/lib folders
+
+After gathering them together. Open Eclipse,
+
+File --> New --> Java Project --> Enter the Name of the Project then Press Next --> Click Libraries
+--> Add External JARs --> Select all the jars you gathered together.
+
+Also you need to download JAR Files for Cucumber
+
+You can download them from my drive: https://drive.google.com/open?id=16AkUk7liKeP3R2_xmNnJphF9r1P7BrlY
+
+You can add JAR files to existing java project as;
+
+Right Click on Project → Build Path → Add External Archives. 
+
+Select all the JARs you downloaded.
+
+Also you need to implement TestNG to your Eclipse. 
+
+To do please visit: http://testng.org/doc/download.html
+
+To install TestNG;
+
+File --> New Project --> Maven --> Maven Project --> (Artifact and Group ID can be anything)
+
+Open pom.xml file that is added to Maven Project, change the dependency part with the file "//TestNG Maven//TestNGMaven"
+
+You are now free to build your project and use TestNG.
